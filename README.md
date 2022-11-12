@@ -79,7 +79,7 @@
 </ul>
 
 
-###  -> Commit-msg
+###  -> Commitlint / Commit-msg
 
 #### Fail commit
 
