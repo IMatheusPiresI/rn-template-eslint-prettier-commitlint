@@ -81,9 +81,12 @@
 
 ###  -> Commit-msg
 
+#### Fail commit
+
 <div>
   <img src="./src/assets/readme/fail_commit_push.png"/>
 </div>
+
 <ul>
   <li>
     <p> -> In the above case we can see the commit-msg in action. Basically it standardizes project commits, thus avoiding random commits, without types like "fix: message", "feat: message". Thus improving the quality of project commits.</p>
@@ -96,4 +99,19 @@
   </li>
 </ul>
 
+
+#### Success commit
+
+<div>
+  <img src="./src/assets/readme/success_commit_push.png"/>
+</div>
+
+<ul>
+  <li>
+    <p> -> In the above case, we have the commit success. When using the correct patterns, typing the commits for semantic sense will allow the commit to be sent.</p>
+  </li>
+  <li>
+    <p> -> We can see that before the commit is approved, it runs eslint looking for an error in the code, then it runs commitlint looking for errors in the commit message, and if everything is approved, it allows the commit to be performed, thus making the code more safe.</p>
+  </li>
+</ul>
 
